@@ -149,7 +149,7 @@
 // 55 is 100k thermistor - ATC Semitec 104GT-2 (Used in ParCan) (1k pullup)
 
 
-// changes made in ULTRA_LCD_IMPLEMENTATION_HITACHI_HD44780.H line 473 to allow temperature display 
+// changes made in ULTRA_LCD_IMPLEMENTATION_HITACHI_HD44780.H line 473 to allow temperature display
 // instead of Z position, set to 1 for temperature, 0 for no temperature.
 #define TEMP_SENSOR_0 0
 #define TEMP_SENSOR_1 0
@@ -387,9 +387,9 @@ const bool Z_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic o
 
 // AMRI Laser Cutter
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   {167.20882, 167.20882, 4000/25.4, 1380/4}
-//#define DEFAULT_MAX_FEEDRATE          {165, 165, 50, 200000}    // (mm/sec)    
+//#define DEFAULT_MAX_FEEDRATE          {165, 165, 50, 200000}    // (mm/sec)
 //#define DEFAULT_MAX_ACCELERATION      {5000,5000,5000,500}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for skeinforge 40+, for older versions raise them a lot.
-//#define DEFAULT_ACCELERATION          3000    // X, Y, Z and E max acceleration in mm/s^2 for printing moves 
+//#define DEFAULT_ACCELERATION          3000    // X, Y, Z and E max acceleration in mm/s^2 for printing moves
 //#define DEFAULT_RETRACT_ACCELERATION  3000   // X, Y, Z and E max acceleration in mm/s^2 for r retracts
 
 // Lansing Makers Netowork Laser Cutter

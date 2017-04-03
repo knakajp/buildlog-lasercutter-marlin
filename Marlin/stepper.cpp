@@ -328,7 +328,7 @@ ISR(TIMER1_COMPA_vect)
 	laser_extinguish();
   }
   #endif LASER
-	
+
   // If there is no current block, attempt to pop one from the buffer
   if (current_block == NULL) {
     // Anything in the buffer?
@@ -1162,4 +1162,3 @@ void microstep_readings()
       SERIAL_PROTOCOL(   digitalRead(E1_MS1_PIN));
       SERIAL_PROTOCOLLN( digitalRead(E1_MS2_PIN));
 }
-

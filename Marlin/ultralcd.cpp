@@ -492,7 +492,7 @@ static void lcd_move_z()
         currentMenu = lcd_move_menu_axis;
         encoderPosition = 0;
     }
-  
+
   #else
     if (encoderPosition != 0)
     {
